@@ -1,3 +1,3 @@
 # gitbookNote
 block
-my first book
+https://xushui2011.github.io/note/
