@@ -5,9 +5,9 @@
 ### JavaScript基础
 
 * [JavaScript基础](README.md)
-* [变量和类型](frontEnd/1_js基础/变量和类型.md)
-* [HTML](frontEnd/1_js基础/HTML.md)
-* [CSS](frontEnd/1_js基础/CSS.md)
+** [变量和类型](frontEnd/1_js基础/变量和类型.md)
+** [HTML](frontEnd/2_HTML和CSS/HTML.md)
+** [CSS](frontEnd/2_HTML和CSS/CSS.md)
 * [GitBook is nice](part1/gitbook.md)
 * [linux](linux/awk.md)
 * [Writing is nice](part1/writing.md)
