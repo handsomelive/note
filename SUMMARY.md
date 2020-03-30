@@ -2,10 +2,12 @@
 
 * [前端工程师的自检清单](README.md)
 
-### Part I
+### JavaScript基础
 
 * [JavaScript基础](README.md)
-* [变量和类型](js基础/变量和类型.md)
+* [变量和类型](frontEnd/1_js基础/变量和类型.md)
+* [HTML](frontEnd/1_js基础/HTML.md)
+* [CSS](frontEnd/1_js基础/CSS.md)
 * [GitBook is nice](part1/gitbook.md)
 * [linux](linux/awk.md)
 * [Writing is nice](part1/writing.md)
