@@ -1,0 +1,458 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>变量和类型 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    前端工程师的自检清单
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">前端技术</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    JavaScript基础
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="2.1.1" data-path="变量和类型.html">
+            
+                <a href="变量和类型.html">
+            
+                    
+                    变量和类型
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    HTML和CSS
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../2_HTML和CSS/HTML.html">
+            
+                <a href="../2_HTML和CSS/HTML.html">
+            
+                    
+                    HTML
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.2" data-path="../2_HTML和CSS/CSS.html">
+            
+                <a href="../2_HTML和CSS/CSS.html">
+            
+                    
+                    CSS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="../../part1/gitbook.html">
+            
+                <a href="../../part1/gitbook.html">
+            
+                    
+                    GitBook is nice
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="../../linux/awk.html">
+            
+                <a href="../../linux/awk.html">
+            
+                    
+                    linux
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="../../part1/writing.html">
+            
+                <a href="../../part1/writing.html">
+            
+                    
+                    Writing is nice
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Part II</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../part2/feedback_please.md">
+            
+                <span>
+            
+                    
+                    We love feedback
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../part2/better_tools.md">
+            
+                <span>
+            
+                    
+                    Better tools for authors
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../part3/title.md">
+            
+                <span>
+            
+                    
+                    Last part without title
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >变量和类型</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x53D8;&#x91CF;&#x548C;&#x7C7B;&#x578B;">&#x53D8;&#x91CF;&#x548C;&#x7C7B;&#x578B;</h3>
+<h4 id="1javascript&#x89C4;&#x5B9A;&#x4E86;&#x51E0;&#x79CD;&#x8BED;&#x8A00;&#x7C7B;&#x578B;">1.JavaScript&#x89C4;&#x5B9A;&#x4E86;&#x51E0;&#x79CD;&#x8BED;&#x8A00;&#x7C7B;&#x578B;</h4>
+<p>1.&#x57FA;&#x672C;&#x7C7B;&#x578B;</p>
+<pre><code>6&#x79CD;&#x57FA;&#x672C;&#x7C7B;&#x578B;&#xFF1A;Undefined&#x3001;Null&#x3001;String&#x3001;Number&#x3001;Boolean&#x3001;Symbol
+&#x8BBF;&#x95EE;&#xFF1A;&#x57FA;&#x672C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x503C;&#x662F;&#x6309;&#x503C;&#x8BBF;&#x95EE;&#x7684;&#x3002;
+&#x5B58;&#x50A8;&#xFF1A;&#x57FA;&#x672C;&#x7C7B;&#x578B;&#x7684;&#x53D8;&#x91CF;&#x662F;&#x5B58;&#x653E;&#x5728;&#x6808;&#x5185;&#x5B58;&#xFF08;Stack&#xFF09;&#x91CC;&#x7684;&#x3002;
+</code></pre><p>&#x56FE;&#x89E3;</p>
+<ul>
+<li>&#x6808;&#x5185;&#x5B58;&#x4E2D;&#x5305;&#x62EC;&#x4E86;&#x53D8;&#x91CF;&#x7684;&#x6807;&#x793A;&#x7B26;&#x548C;&#x53D8;&#x91CF;&#x7684;&#x503C;
+<img src="../../img/articlex.png" alt="Stack" title="&#x793A;&#x4F8B;&#x56FE;"></li>
+</ul>
+<p>2.&#x5F15;&#x7528;&#x7C7B;&#x578B;</p>
+<pre><code>1&#x79CD;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#xFF1A;Object (&#x5C31;&#x662F;&#x4E00;&#x7EC4;&#x6570;&#x636E;&#x548C;&#x529F;&#x80FD;&#x96C6;&#x5408;&#xFF0C;&#x5305;&#x62EC;Object/Array/RegExp/Date/Function)
+&#x8BBF;&#x95EE;&#xFF1A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7684;&#x503C;&#x662F;&#x6309;&#x5F15;&#x7528;&#x8BBF;&#x95EE;&#x7684;&#x3002;
+&#x5B58;&#x50A8;&#xFF1A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7684;&#x503C;&#x662F;&#x4FDD;&#x5B58;&#x5728;&#x5806;&#x5185;&#x5B58;&#xFF08;Heap&#xFF09;&#x4E2D;&#x7684;&#x5BF9;&#x8C61;&#xFF08;Object&#xFF09;&#x3002;
+</code></pre><p>&#x56FE;&#x89E3;</p>
+<ul>
+<li>&#x6808;&#x5185;&#x5B58;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x53D8;&#x91CF;&#x7684;&#x6807;&#x793A;&#x7B26;&#x548C;&#x6307;&#x5411;&#x5806;&#x5185;&#x5B58;&#x4E2D;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x6307;&#x9488;</li>
+<li>&#x5806;&#x5185;&#x5B58;&#x4E2D;&#x5305;&#x542B;&#x4E86;&#x5BF9;&#x8C61;&#x7684;&#x5185;&#x5BB9;</li>
+</ul>
+<p><img src="../../img/obj1.png" alt="Stack" title="&#x793A;&#x4F8B;&#x56FE;"></p>
+<h3 id="2javascript&#x5BF9;&#x8C61;&#x7684;&#x5E95;&#x5C42;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x662F;&#x4EC0;&#x4E48;">2.JavaScript&#x5BF9;&#x8C61;&#x7684;&#x5E95;&#x5C42;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x662F;&#x4EC0;&#x4E48;</h3>
+<h3 id="3symbol&#x7C7B;&#x578B;&#x5728;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3001;&#x53EF;&#x624B;&#x52A8;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;symbol">3.Symbol&#x7C7B;&#x578B;&#x5728;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x3001;&#x53EF;&#x624B;&#x52A8;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;Symbol</h3>
+<pre><code>const TYPE_AUDIO = Symbol()
+const TYPE_VIDEO = Symbol()
+const TYPE_IMAGE = Symbol()
+
+function handleFileResource(resource) {
+  switch(resource.type) {
+    case TYPE_AUDIO:
+      playAudio(resource)
+      break
+    case TYPE_VIDEO:
+      playVideo(resource)
+      break
+    case TYPE_IMAGE:
+      previewImage(resource)
+      break
+    default:
+      throw new Error(&apos;Unknown type of resource&apos;)
+  }
+}
+
+
+const PROP_NAME = Symbol()
+let obj = {
+  [PROP_NAME]: &quot;&#x4E00;&#x65A4;&#x4EE3;&#x7801;&quot;,
+  age: 18,
+  title: &apos;Engineer&apos;
+}
+obj[PROP_NAME] // &apos;&#x4E00;&#x65A4;&#x4EE3;&#x7801;&apos;
+Object.keys(obj)   // [&apos;age&apos;, &apos;title&apos;]
+for (let p in obj) {
+   console.log(p)   // &#x5206;&#x522B;&#x4F1A;&#x8F93;&#x51FA;&#xFF1A;&apos;age&apos; &#x548C; &apos;title&apos;
+}
+Object.getOwnPropertyNames(obj)   // [&apos;age&apos;, &apos;title&apos;]
+</code></pre><p>Symbol&#x7C7B;&#x578B;&#x7684;key&#x662F;&#x4E0D;&#x80FD;&#x901A;&#x8FC7;Object.keys()&#x6216;&#x8005;for...in&#x6765;&#x679A;&#x4E3E;&#x7684;&#xFF0C;&#x5B83;&#x672A;&#x88AB;&#x5305;&#x542B;&#x5728;&#x5BF9;&#x8C61;&#x81EA;&#x8EAB;&#x7684;&#x5C5E;&#x6027;&#x540D;&#x96C6;&#x5408;(property names)&#x4E4B;&#x4E2D;&#x3002;&#x6240;&#x4EE5;&#xFF0C;&#x5229;&#x7528;&#x8BE5;&#x7279;&#x6027;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x4E00;&#x4E9B;&#x4E0D;&#x9700;&#x8981;&#x5BF9;&#x5916;&#x64CD;&#x4F5C;&#x548C;&#x8BBF;&#x95EE;&#x7684;&#x5C5E;&#x6027;&#x4F7F;&#x7528;Symbol&#x6765;&#x5B9A;&#x4E49;</p>
+<h3 id="4javascript&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x5177;&#x4F53;&#x5B58;&#x50A8;&#x5F62;&#x5F0F;">4.JavaScript&#x4E2D;&#x7684;&#x53D8;&#x91CF;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x5177;&#x4F53;&#x5B58;&#x50A8;&#x5F62;&#x5F0F;</h3>
+<h3 id="5&#x57FA;&#x672C;&#x7C7B;&#x578B;&#x5BF9;&#x5E94;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF0C;&#x4EE5;&#x53CA;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x88C5;&#x7BB1;&#x62C6;&#x7BB1;&#x64CD;&#x4F5C;">5.&#x57FA;&#x672C;&#x7C7B;&#x578B;&#x5BF9;&#x5E94;&#x7684;&#x5185;&#x7F6E;&#x5BF9;&#x8C61;&#xFF0C;&#x4EE5;&#x53CA;&#x4ED6;&#x4EEC;&#x4E4B;&#x95F4;&#x7684;&#x88C5;&#x7BB1;&#x62C6;&#x7BB1;&#x64CD;&#x4F5C;</h3>
+<h3 id="6&#x7406;&#x89E3;&#x503C;&#x7C7B;&#x578B;&#x548C;&#x5F15;&#x7528;&#x7C7B;&#x578B;">6.&#x7406;&#x89E3;&#x503C;&#x7C7B;&#x578B;&#x548C;&#x5F15;&#x7528;&#x7C7B;&#x578B;</h3>
+<h3 id="7null&#x548C;undefined&#x7684;&#x533A;&#x522B;">7.null&#x548C;undefined&#x7684;&#x533A;&#x522B;</h3>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"变量和类型","level":"2.1.1","depth":2,"next":{"title":"HTML和CSS","level":"2.2","depth":1,"ref":"","articles":[{"title":"HTML","level":"2.2.1","depth":2,"path":"frontEnd/2_HTML和CSS/HTML.md","ref":"frontEnd/2_HTML和CSS/HTML.md","articles":[]},{"title":"CSS","level":"2.2.2","depth":2,"path":"frontEnd/2_HTML和CSS/CSS.md","ref":"frontEnd/2_HTML和CSS/CSS.md","articles":[]}]},"previous":{"title":"JavaScript基础","level":"2.1","depth":1,"ref":"","articles":[{"title":"变量和类型","level":"2.1.1","depth":2,"path":"frontEnd/1_js基础/变量和类型.md","ref":"frontEnd/1_js基础/变量和类型.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"frontEnd/1_js基础/变量和类型.md","mtime":"2020-03-30T16:58:54.291Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-03-30T14:58:11.481Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

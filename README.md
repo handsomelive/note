@@ -4,3 +4,11 @@ https://handesomelive.github.io/note/
 ```sh
 gitbook build ./ docs
 ```
+## 启动服务
+```sh
+gitbook serve
+```
+## 本地编译
+```sh
+gitbook build
+```
