@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [前端工程师的自检清单](README.md)
 
 ### Part I
 
