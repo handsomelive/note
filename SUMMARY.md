@@ -4,8 +4,8 @@
 
 ### Part I
 
-* [Introduction](README.md)
-* [Writing is nice](part1/writing.md)
+* [JavaScript基础](README.md)
+* [变量和类型](js基础/变量和类型.md)
 * [GitBook is nice](part1/gitbook.md)
 * [linux](linux/awk.md)
 * [Writing is nice](part1/writing.md)
